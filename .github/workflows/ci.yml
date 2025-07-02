@@ -28,7 +28,7 @@ jobs:
     - name: Setup PHP
       uses: shivammathur/setup-php@v2
       with: # Options pour l'action `setup-php`.
-        php-version: '8.2'
+        php-version: '8.3'
         tools: composer:v2 # On demande aussi d'installer la v2 de composer.
 
     # 3. Installer les dépendances du projet
